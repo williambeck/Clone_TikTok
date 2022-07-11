@@ -1,4 +1,4 @@
-import { Container, Content, LogoContainer, LogoIcon, Logo, OptionsContainer, Icon, Avatar, Button} from "./styles";
+import { Container, Content, LogoContainer, LogoIcon, Logo, OptionsContainer, Icon, Avatar, Button, ButtonCarregar} from "./styles";
 
 
 function Header() {
@@ -13,6 +13,7 @@ function Header() {
                     <Icon></Icon>
                     <Avatar>                
                     </Avatar>
+                    <ButtonCarregar>+ Carregar</ButtonCarregar>
                     <Button>Entrar</Button>
                 </OptionsContainer>
             </Content>

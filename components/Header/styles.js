@@ -13,50 +13,45 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-display: flex;
-height: 100%;
-justify-content: space-between;
-align-items: center;
-padding: 0 20px;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
    
 `;
 
 export const LogoContainer = styled.div`
-display: block;
-   
+    display: block;   
 `;
 
 export const LogoIcon = styled.img`
-width: 28px;
-
-   
+    width: 28px;   
 `;
 
 export const Logo = styled.img`
-width: 97px;
-margin-left: 4px;
-position: relative;
-top: -2px;
-   
+    width: 97px;
+    margin-left: 4px;
+    position: relative;
+    top: -2px;   
 `;
 
 export const OptionsContainer = styled.div`
-display: flex;
-align-items: center;
-   
+    display: flex;
+    align-items: center;   
 `;
 
 export const Icon = styled.img`
-width: 37px;
-height: 37px;
+    width: 37px;
+    height: 37px;
    
 `;
 
 export const Avatar = styled.div`
-flex: 0 0 40px;
-margin-left: 30px;
-position: relative;
-cursor: pointer;
+    flex: 0 0 40px;
+    margin-left: 30px;
+    position: relative;
+    cursor: pointer;
 
 >img {
     width: 40px;
@@ -77,6 +72,33 @@ cursor: pointer;
 
 }
    
+`;
+
+export const ButtonCarregar = styled.button`
+
+    min-width: 110px;
+    padding: 0 16px;
+    height: 36px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-weight: 600;
+    background-color: #fff;
+    
+
+
+
 `;
 
 export const Button = styled.button`
@@ -114,9 +136,12 @@ export const Button = styled.button`
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
-     justify-content: center; 
+    /* justify-content: center; */
     padding: 6px 8px;
-    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     cursor: pointer;
     box-sizing: border-box;
     font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;

@@ -8,8 +8,9 @@ const Title = styled.h1`
 
 export default function Home() {
   return (
-    <><Layout /><div><Title>TikTok</Title>
+    <>
+    <Layout></Layout><Title>TikTok</Title></>
 
-    </div></>
+    
   )
 }
